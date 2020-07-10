@@ -1,5 +1,10 @@
 ## Dota Game Info
 
+### Inspiration
+There is a very common bot that is used by Dota 2 streamers called 9kmmrbot. It allows viewers to keep track of the streamer's W/L and other notable players in the game. This project is an attempt to streamline that interaction into a Twitch Extension.
+
+Since the Steam API requires an API key, a proxy/cache of match data will also have to be stored on a backend (DyanmoDB + API Gateway + Lambda).
+
 ### API Proxy Lambda
 This lambda will call the Steam API (perhaps using [node-steamapi](https://github.com/xDimGG/node-steamapi#)) and save the results back to a DynamoDB table. The lambda will be proxied by an API Gateway.
 
