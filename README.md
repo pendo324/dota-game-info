@@ -5,8 +5,6 @@ There is a very common bot that is used by Dota 2 streamers called 9kmmrbot. It 
 
 Since the Steam API requires an API key, a proxy/cache of match data will also have to be stored on a backend (DyanmoDB + API Gateway + Lambda).
 
----
-
 # Components
 ## API Proxy Lambda
 This lambda will call the Steam API (perhaps using [node-steamapi](https://github.com/xDimGG/node-steamapi#)) and save the results back to a DynamoDB table. The lambda will be proxied by an API Gateway.
