@@ -1,0 +1,25 @@
+{
+  "name": "@pendo324/dota-game-info-stack",
+  "version": "1.0.0",
+  "description": "Dota 2 game info AWS stack",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:clean": "tsc --build --clean",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
+    "diff": "cdk diff",
+    "buildAndSynth": "npm run build && npm run synth",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pendo324",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-cdk/aws-apigatewayv2": "^1.51.0",
+    "@aws-cdk/aws-dynamodb": "^1.51.0",
+    "@aws-cdk/aws-lambda": "^1.51.0",
+    "@aws-cdk/core": "^1.51.0",
+    "aws-cdk": "^1.51.0",
+    "typescript": "^3.9.6"
+  }
+}

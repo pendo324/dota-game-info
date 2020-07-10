@@ -1,0 +1,24 @@
+{
+  "name": "@pendo324/dota-game-info-api-proxy-lambda",
+  "version": "1.0.0",
+  "description": "Dota 2 game info lambda function",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=TEST node ./dist/app.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "package": "npm run build && node ./tools/zipDist.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pendo324",
+  "license": "MIT",
+  "dependencies": {
+    "aws-lambda-fastify": "^1.4.4",
+    "fastify": "^3.0.0",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "adm-zip": "^0.4.16",
+    "cross-env": "^7.0.2"
+  }
+}
