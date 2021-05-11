@@ -11,24 +11,6 @@
     "@aws-cdk/cx-api" "1.51.0"
     constructs "^3.0.2"
 
-"@aws-cdk/aws-apigateway@^1.51.0":
-  version "1.51.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigateway/-/aws-apigateway-1.51.0.tgz#87684a1b6fccc4eeb34db905eba4e7615458bf10"
-  integrity sha512-xSzBTuGC9b6R+NxSUQtGYD/oSpAwC1OFauZm90ue7zhFWAyaI8Rm4wMx6UDpyeBOZsBr18HemLaWhLnZGQUedg==
-  dependencies:
-    "@aws-cdk/assets" "1.51.0"
-    "@aws-cdk/aws-certificatemanager" "1.51.0"
-    "@aws-cdk/aws-ec2" "1.51.0"
-    "@aws-cdk/aws-elasticloadbalancingv2" "1.51.0"
-    "@aws-cdk/aws-iam" "1.51.0"
-    "@aws-cdk/aws-lambda" "1.51.0"
-    "@aws-cdk/aws-logs" "1.51.0"
-    "@aws-cdk/aws-s3" "1.51.0"
-    "@aws-cdk/aws-s3-assets" "1.51.0"
-    "@aws-cdk/core" "1.51.0"
-    "@aws-cdk/cx-api" "1.51.0"
-    constructs "^3.0.2"
-
 "@aws-cdk/aws-apigatewayv2@^1.51.0":
   version "1.51.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2/-/aws-apigatewayv2-1.51.0.tgz#2ee9595759710e04205ad8bc05eec3ba6fd3a8a8"
@@ -134,20 +116,6 @@
     "@aws-cdk/cloud-assembly-schema" "1.51.0"
     "@aws-cdk/core" "1.51.0"
     "@aws-cdk/cx-api" "1.51.0"
-    constructs "^3.0.2"
-
-"@aws-cdk/aws-elasticloadbalancingv2@1.51.0":
-  version "1.51.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-elasticloadbalancingv2/-/aws-elasticloadbalancingv2-1.51.0.tgz#fe6965e0354b3eafa33a90fba2db287f3aaf85a5"
-  integrity sha512-jpgV9TLH2VB9EPPUf8MoBSUwiOA8MfcdoqWm4C5WjuPlHO8kktBfe5wF4WgGO5UK0TnV54Nh+NpFV8lbjPTSgw==
-  dependencies:
-    "@aws-cdk/aws-certificatemanager" "1.51.0"
-    "@aws-cdk/aws-cloudwatch" "1.51.0"
-    "@aws-cdk/aws-ec2" "1.51.0"
-    "@aws-cdk/aws-iam" "1.51.0"
-    "@aws-cdk/aws-lambda" "1.51.0"
-    "@aws-cdk/aws-s3" "1.51.0"
-    "@aws-cdk/core" "1.51.0"
     constructs "^3.0.2"
 
 "@aws-cdk/aws-events@1.51.0":
@@ -1104,9 +1072,9 @@ lodash.union@^4.6.0:
   integrity sha1-SLtQiECfFvGCFmZkHETdGqrjzYg=
 
 lodash@^4.17.14:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lru-cache@^5.1.1:
   version "5.1.1"
