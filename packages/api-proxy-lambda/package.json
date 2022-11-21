@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-lambda-fastify": "^1.4.4",
-    "fastify": "^3.0.0",
+    "fastify": "^3.29.4",
     "typescript": "^3.9.6"
   },
   "devDependencies": {
